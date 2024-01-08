@@ -44,6 +44,7 @@ __AWS Databased Migration Service__
 __EBS__  
 Elastic Block Store  
 EC2がディスクとして利用しているサービス  
+→データ保護にはEBSスナップショットを使う  
 
 __ElastiCathe__  
 NoSQLデータをメモリ上にキャッシュとして格納することで高速化を測るDBサービス  
