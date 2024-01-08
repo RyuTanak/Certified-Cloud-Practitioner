@@ -31,6 +31,9 @@
   セキュリティ面で必要な場合に使う  
   (Dedicated→占有などの意味)  
 
+- EC2 Instance Saving Service  
+  1年or3年でコスト最適化される契約をする  
+
 ### ストレージサービス  
 
 - EBS(Elastic Block Store)  
@@ -61,6 +64,7 @@
   インメモリのDB  
   →メモリ（RAM）上でデータベースの構築保存を行うので、スピードが速い  
   電源を切るときや再起動時に、定期的にストレージにデータを保存している  
+  ちなみに、NoSQLである  
 
 - Aurora for MySQL  
   デフォルトで自動バックアップを行う  
@@ -72,8 +76,8 @@
   リレーショナルデータベース  
   データウェアハウス用なので、主に業務の分析するためのデータの保存に使われる  
 
-  
-
+  ※Amazon EMRはデータベースではない  
+  大量のデータを迅速に処理するためのサービス  
 
   
 ### メッセージングサービス  
@@ -148,4 +152,17 @@ AWSには多くの移行関連ツールがあります。以下は、AWSの移�
 (3) [クラウド「AWS」への移行のポイントは？特徴と移行メリットを](https://www.sunnycloud.jp/column/20201204-01/)  
 (4) [クラウド移行の最初の一歩 ～ AWSで使える移行ツール](https://managed.gmocloud.com/knowledge/aws/migration04.html)  
 (5) [AWS での移行および転送サービス | Amazon Web Services] (https://aws.amazon.com/jp/products/migration-and-transfer/)  
+
+
+### 認証系サービス  
+
+- AWS Organizations  
+  AWSアカウントの統合管理  
+  「AWSアカウント」は個人個人のアカウントではなく、環境ごとのアカウントという意味 
+  個人個人のアカウントはIAMが管理   
+- Amazon Cognito  
+  アプリケーションの認証システム  
+
+
+
 
