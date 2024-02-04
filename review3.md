@@ -198,3 +198,6 @@ AWSのコンプライアンスの関連情報が保存。
   アプリケーションに対する監視  
 - Amazon GuardDuty  
   
+
+51. AWS Well-Architectedフレームワークの設計原則   
+- 
